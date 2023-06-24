@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <h1 class="logo">logo</h1>
+        <div class="roomss">rooms</div>
+    </header>
+    <form class="sing-in-room">
+        <div class="all">
+        
+        <h3 class="title">name</h3>
+        <input type="text" ><br>
+        <h3 class="title" id="phone">phone</h3></i><br>
+        <input type="tel">
+        <h3 class="title">rome number</h3>
+        <div class="rooms">
+            <select name="rooms" id="rooms">
+                <option value="rooms" class="rooms">rooms-number</option>
+                <option value="rooms" class="rooms">101</option>
+                <option value="rooms" class="rooms">102</option>
+                <option value="rooms" class="rooms">103</option>
+                <option value="rooms" class="rooms">104</option>
+                <option value="rooms" class="rooms">105</option>
+                <option value="rooms" class="rooms">107</option>
+                <option value="rooms" class="rooms">201</option>
+                <option value="rooms" class="rooms">202</option>
+                <option value="rooms" class="rooms">203</option>
+                <option value="rooms" class="rooms">204</option>
+                <option value="rooms" class="rooms">205</option>
+                <option value="rooms" class="rooms">206</option>
+                <option value="rooms" class="rooms">207</option>
+                <option value="rooms" class="rooms">301</option>
+                <option value="rooms" class="rooms">301</option>
+                <option value="rooms" class="rooms">302</option>
+                <option value="rooms" class="rooms">303</option>
+                <option value="rooms" class="rooms">304</option>
+                <option value="rooms" class="rooms">305</option>
+                <option value="rooms" class="rooms">306</option>
+                <option value="rooms" class="rooms">307</option>
+            </select>
+        </div>
+        <hr>
+        <h3 class="title">date</h3>
+        <label for="in" class="title">chick in</label>
+        <br>
+        <input type="datetime-local" id="in"><i class="fa-light fa-calendar-lines-pen"></i>
+        <br>
+        <label for="out" class="title">chick out</label>
+        <br>
+        <input type="datetime-local" name="cick out" id="out">
+        <br>
+        <label for="cost"  class="title">cost</label>
+        <br><input type="number" id="cost" value="" tyep="" id="cost">
+        <br>
+        <input type="number" id="the"><br>
+        <div class="radio" id="man">
+        <input type="radio" name="mans" id="woman" value="mans">
+        <label for="woman"><i class="fa-solid fa-venus"></i></label>
+        <input type="radio" value="mans" name="mans" id="man">
+        <label for="man"><i class="fa-solid fa-mars"></i></label>
+        </div>
+        <div class="bottom">
+            
+            <button type="submit" class="save">save</button>
+        </div>
+    </form> 
+</body>
+</html>
+<style>
+*{
+    padding: 0;
+    margin:0 ;
+}
+body{
+    background: url(../image/layered-waves-haikei.svg);
+    background-size:cover;
+
+}
+header{
+    background-color: #faebd700;
+    text-transform: capitalize;
+    box-shadow: -5px 14px 20px 0px #5f5b5b;
+    height: 60px;
+}
+.logo{
+    color:rgb(255, 255, 255);
+    text-decoration: solid;
+    text-align: left;
+    text-transform:uppercase;
+    margin-top: 20px;
+}
+.roomss{
+    
+    color: white;
+font-size: 25px;
+z-index: 3;
+margin-right: 19px;
+margin-top: -35px;
+text-align: end;
+}
+.all{
+    text-align: center;
+    background-color: #5f5b5b;
+    width: 20%;
+    margin: 5% 0  0 35%;
+    height: 550px;
+    padding: 20px 0 0 30px;
+}
+input{
+ margin-bottom: 20px;  
+ padding: 3px; 
+}
+#phone{
+margin-bottom: -15px;
+}
+hr{
+    margin: 8px 0 8px -30px;
+}
+.save{
+    background-color: blue;
+    width:70%;
+    height: 30px;
+    border-radius: 160px;
+    transform: 1s;
+}
+
+
+</style>
